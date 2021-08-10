@@ -3,23 +3,62 @@ body {
 }
 
 #tribute {
-
+    background-color: rgb(101, 143, 179);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 #img-div {
-
+    max-width: 95%;
+    max-height: 550px;
+    display: flex;
+    flex-direction: row;
 }
 
 .img {
-
+    max-width: 350px;
+    max-height: 500px;
+    display: flex;
 }
 
 .img2 {
-
+    max-width: 350px;
+    max-height: 500px;
+    display: flex;
 }
 
 .img3 {
+    max-width: 350px;
+    max-height: 500px;
+    display: flex;
+}
 
+@media only screen and (max-width: 800px) {
+    #img-div {
+        max-width: 95%;
+        max-height: 550px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .img {
+        max-width: 100px;
+        max-height: 200px;
+        display: flex;
+    }
+    
+    .img2 {
+        max-width: 100px;
+        max-height: 200px;
+        display: flex;
+    }
+    
+    .img3 {
+        max-width: 100px;
+        max-height: 200px;
+        display: flex;
+    }
 }
 
 #timeline {
@@ -31,5 +70,5 @@ body {
 }
 
 .info {
-    
+
 }
