@@ -45,69 +45,42 @@ a:active {
     max-height: 400px;
     display: flex;
 }
-/*
-@media only screen and (max-width: 900px) {
-    #img-div {
-        max-width: 95%;
-        max-height: 600px;
-        display: flex;
-        flex-direction: row;
-    }
 
-    .img {
-        max-width: 150px;
-        max-height: 200px;
-        display: flex;
-    }
-    
-    .img2 {
-        max-width: 150px;
-        max-height: 200px;
-        display: flex;
-    }
-    
-    .img3 {
-        max-width: 150px;
-        max-height: 200px;
-        display: flex;
-    }
-}
-*/
 hr{
     width: 90%;
 }
 
-#timeline1 {
+#youth-sec {
     width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    margin: 10px 0 10px 0;
+    margin: 15px 0 15px 0;
 }
 
-.info1 {
+.youth-info {
     max-width: 500px;
     display: flex;
     align-items: center;
     text-align: center;
 }
 
-.info-img1 {
+.youth-img {
     width: 300px;
     height: 350px;
     display: flex;
 }
 
-#timeline2 {
+#bodybuilding-sec {
     width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
-    margin: 10px 0 10px 0;
+    margin: 15px 0 15px 0;
 }
 
-.info2 {
+.bb-info {
     width: 500px;
     text-align: center;
     display: flex;
@@ -115,12 +88,43 @@ hr{
     padding: 0 15px 0 15px;
 }
 
-.info-img2 {
+.bb-img {
     width: 400px;
     display: flex;
 }
 
-.info-img22 {
+.bb-img2 {
     width: 200px;
     display: flex;
+}
+
+#acting-sec {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 15px 0 15px 0;
+}
+
+.act-info {
+    width: 500px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding: 0 15px 0 15px;
+}
+
+.movies-pic {
+    height: 350px;
+    display: flex;
+}
+
+.roles-pic {
+    height: 350px;
+    display: flex;
+}
+
+#post-sec {
+
 }
