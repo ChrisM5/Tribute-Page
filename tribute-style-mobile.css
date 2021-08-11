@@ -1,0 +1,97 @@
+body {
+    background-color: #e0e0e0;
+}
+
+.a {
+    text-decoration: none;
+}
+a:hover {
+    color: red;
+}
+
+a:active {
+    color: darkred;
+}
+
+#tribute {
+    background-color: rgb(101, 143, 179, 0.7);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+}
+
+#img-div {
+    max-width: 95%;
+    max-height: 600px;
+    display: flex;
+    flex-direction: row;
+}
+
+.img {
+    max-width: 100px;
+    max-height: 200px;
+    display: flex;
+}
+
+.img2 {
+    max-width: 100px;
+    max-height: 200px;
+    display: flex;
+}
+
+.img3 {
+    max-width: 100px;
+    max-height: 200px;
+    display: flex;
+}
+
+hr{
+    width: 90%;
+}
+
+#timeline1 {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    margin: 10px 0 10px 0;
+}
+
+.info1 {
+    font-size: 14px;
+    max-width: 350px;
+    
+}
+
+.info-img1 {
+    width: 250px;
+    height: 280px;
+    
+}
+
+#timeline2 {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    margin: 10px 0 10px 0;
+}
+
+.info2 {
+    width: 500px;
+    text-align: center;
+    display: flex;
+}
+
+.info-img2 {
+    width: 250px;
+    display: flex;
+}
+
+.info-img22 {
+    width: 120px;
+    display: flex;
+}

@@ -72,7 +72,7 @@ a:active {
         display: flex;
     }
 }
-
+/*
 @media only screen and (max-width: 600px) {
     #img-div {
         max-width: 95%;
@@ -99,17 +99,17 @@ a:active {
         display: flex;
     }
 }
-
+*/
 hr{
     width: 90%;
 }
 
 #timeline1 {
     width: 100%;
-    height: 350px;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    margin: 10px 0 10px 0;
 }
 
 .info1 {
@@ -125,37 +125,13 @@ hr{
     display: flex;
 }
 
-@media only screen and (max-width: 600px) {
-    #timeline1 {
-        width: 100%;
-        height: 550px;
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: row;
-        justify-content: center;
-        
-    }
-    
-    .info1 {
-        font-size: 14px;
-        max-width: 350px;
-        
-    }
-    
-    .info-img1 {
-        width: 250px;
-        height: 280px;
-        
-    }
-}
-
 #timeline2 {
     width: 100%;
-    height: 350px;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
+    margin: 10px 0 10px 0;
 }
 
 .info2 {
@@ -167,35 +143,10 @@ hr{
 
 .info-img2 {
     width: 500px;
+    display: flex;
 }
 
 .info-img22 {
     width: 250px;
-}
-
-@media only screen and (max-width: 600px) {
-    #timeline2 {
-        width: 100%;
-        height: 630px;
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: row;
-        justify-content: center;
-    }
-    
-    .info2 {
-        width: 500px;
-        text-align: center;
-        display: flex;
-    }
-    
-    .info-img2 {
-        width: 250px;
-        display: flex;
-    }
-    
-    .info-img22 {
-        width: 120px;
-        display: flex;
-    }
+    display: flex;
 }
