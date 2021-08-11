@@ -126,5 +126,25 @@ hr{
 }
 
 #post-sec {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 0 15px 0;
+}
 
+.closer {
+    width: 700px;
+    display: flex;
+    text-align: center;
+}
+
+.tribute-link {
+    width: 400px;
+    display: flex;
+    text-align: center;
+}
+
+.last-hr {
+    width: 40%
 }

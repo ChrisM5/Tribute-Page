@@ -78,7 +78,7 @@ hr{
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
-    margin: 15px 0 15px 0;
+    margin: 15px 10px 15px 10px;
 }
 
 .bb-info {
@@ -104,7 +104,7 @@ hr{
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    margin: 15px 0 15px 0;
+    margin: 15px 10px 15px 10px;
 }
 
 .act-info {
@@ -121,4 +121,28 @@ hr{
 .roles-pic {
     height: 200px;
     display: flex;
+}
+
+#post-sec {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 15px 10px 15px 10px;
+}
+
+.closer {   
+    display: flex;
+    text-align: center;
+}
+
+.tribute-link {
+    display: flex;
+    text-align: center;
+}
+
+.last-hr {
+    width: 60%
 }
