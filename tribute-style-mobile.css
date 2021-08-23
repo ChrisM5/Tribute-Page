@@ -29,19 +29,19 @@ a:active {
     flex-direction: row;
 }
 
-.img {
+.image {
     max-width: 100px;
     max-height: 200px;
     display: flex;
 }
 
-.img2 {
+.image2 {
     max-width: 100px;
     max-height: 200px;
     display: flex;
 }
 
-.img3 {
+.image3 {
     max-width: 100px;
     max-height: 200px;
     display: flex;
@@ -51,7 +51,7 @@ hr{
     width: 90%;
 }
 
-#youth-sec {
+#tribute-info {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
